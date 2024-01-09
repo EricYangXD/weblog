@@ -2,3 +2,6 @@ spring:
   profiles:
     # 默认激活dev环境
     active: prod
+  jackson:
+    default-property-inclusion: non_null
+    date-format: yyyy-MM-dd HH:mm:ss

@@ -1,4 +1,4 @@
-package com.wefoundi.weblog.weblog.common.aspect;
+package com.wefoundi.weblog.common.aspect;
 
 import java.lang.annotation.*;
 

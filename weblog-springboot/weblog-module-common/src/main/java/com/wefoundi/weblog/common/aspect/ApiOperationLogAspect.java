@@ -1,6 +1,6 @@
-package com.wefoundi.weblog.weblog.common.aspect;
+package com.wefoundi.weblog.common.aspect;
 
-import com.wefoundi.weblog.weblog.common.utils.JsonUtil;
+import com.wefoundi.weblog.common.utils.JsonUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -24,7 +24,7 @@ public class ApiOperationLogAspect {
     /**
      * 以自定义 @ApiOperationLog 注解为切点，凡是添加 @ApiOperationLog 的方法，都会执行环绕中的代码
      */
-    @Pointcut("@annotation(com.wefoundi.weblog.weblog.common.aspect.ApiOperationLog)")
+    @Pointcut("@annotation(com.wefoundi.weblog.common.aspect.ApiOperationLog)")
     public void apiOperationLog() {
     }
 

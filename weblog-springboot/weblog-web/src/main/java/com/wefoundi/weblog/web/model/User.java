@@ -18,7 +18,7 @@ public class User {
     @Max(value = 100, message = "年龄必须小于或等于 100")
     private Integer age;
 
-    @NotBlank(message = "邮箱不能为空")
+//    @NotBlank(message = "邮箱不能为空")
     @Email(message = "邮箱格式不正确")
     private String email;
 }

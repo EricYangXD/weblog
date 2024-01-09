@@ -1,4 +1,4 @@
-package com.wefoundi.weblog.weblog.common.utils;
+package com.wefoundi.weblog.common.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
